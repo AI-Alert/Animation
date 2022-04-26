@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/android2"
+        android:layout_width="134dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        android:layout_marginBottom="341dp"
+        android:text="rotate" />
+
+    <!--    <Button-->
+<!--        android:id="@+id/android1"-->
+<!--        android:layout_width="141dp"-->
+<!--        android:layout_height="76dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="142dp"-->
+<!--        android:layout_marginLeft="142dp"-->
+<!--        android:layout_marginTop="117dp"-->
+<!--        android:layout_marginEnd="128dp"-->
+<!--        android:layout_marginRight="128dp"-->
+<!--        android:layout_marginBottom="538dp"-->
+<!--        android:backgroundTint="@color/orange"-->
+<!--        android:text="Bounce" />-->
+
+
+    <ImageButton
+        android:id="@+id/android1"
+        android:layout_width="wrap_content"
+        android:layout_height="197dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginRight="135dp"
+        android:layout_marginBottom="489dp"
+        android:textColor="@color/white"
+        app:srcCompat="@drawable/photoo" />
+
+    <Button
+        android:id="@+id/android3"
+        android:layout_width="128dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        android:layout_marginBottom="169dp"
+        android:backgroundTint="@color/white"
+        android:text="Zoom In"
+        android:textColor="@color/purple_200" />
+</RelativeLayout>
